@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM HTML</title>
+</head>
+<body>
+    <!-- Form in HTML -->
+    <form action="/action.php">
+        <h1>Registraion</h1>
+        <input type="text" name="Name" id="Name" placeholder="Enter Name"><br>
+        <input type="password" name="Name" id="Name" placeholder="Enter Password"><br><br>
+
+        <h3>Like and subscribe</h3>
+        <label for="1">
+        <input type="radio" Value="Subscribe" id="1" name="youtube">Subscribe
+        </label>
+        <label for="2">
+        <input type="radio" Value="Like" id="2" name="youtube">Like
+        </label>
+        
+        <h3>Courses</h3>
+        <!-- checkbox -->
+        <label for="3">
+            <input type="checkbox" Value="HTML" id="3" name="youtube">HTML
+            </label>
+            <label for="4">
+            <input type="checkbox" Value="CSS" id="4" name="youtube">CSS
+            </label>
+
+        <h3>FeedBack</h3>
+        <!-- textarea -->
+        <textarea name="myfeedback" id="5" cols="30" rows="10" placeholder="my textarea"></textarea>
+        <h3>DropDown</h3>
+        <!-- Drop Down -->
+            <select name="city" id="city">
+                <option value="mumbai">Mumbai</option>
+                <option value="chennai">Chennai</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="kota">Kota</option>
+
+            </select>
+            <input type="submit" >
+    </form>
+</body>
+</html>
